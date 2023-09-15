@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      port: 27017
+      database: product_db
+      host: localhost
+server:
+  error:
+    include-message: always
